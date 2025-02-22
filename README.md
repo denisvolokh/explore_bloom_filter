@@ -8,3 +8,5 @@ It uses a bit array and several independent hash functions. When you add an elem
 Bloom filters are very space-efficient and fast, making them useful in applications like caching, network systems, and database queries where space and speed are critical. However, the trade-off is the possibility of false positives, which can be managed by carefully choosing the size of the bit array and the number of hash functions.
 
 In summary, Bloom filters are an excellent tool when you need a fast, memory-efficient way to check for membership with an acceptable risk of occasional false positives.
+
+(Blog post on Medium)[https://medium.com/@denis.volokh/kicking-off-the-series-lets-dive-into-bloom-filters-and-more-cool-stuff-to-come-b70bf3248812]
